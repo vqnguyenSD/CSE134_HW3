@@ -1,0 +1,66 @@
+body {
+        
+}
+
+header {
+    grid-area: Header;
+}
+
+footer {
+    grid-area: Footer;
+}
+
+a{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(39, 39, 202);
+    color: rgb(232, 231, 243);
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    height: 50px;
+    border: 1px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 3.0fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "Main Image"
+        "Footer Footer";
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.paraphrase{
+    font-style: italic;
+}
+
+/* For presentation only, no need to copy the code below */
+
+main,
+footer {
+    display: grid;
+    place-items: start;
+    border: 1px solid black;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+}
