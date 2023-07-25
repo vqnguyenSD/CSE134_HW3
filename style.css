@@ -1,6 +1,6 @@
 
 header {
-    grid-area: Header;
+    grid-area: flex;
 }
 
 footer {
