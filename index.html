@@ -1,36 +1,88 @@
 <!DOCTYPE html>
-<html lang = "en-US">
+<html lang="en-US">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-
-    <link href = "./style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1><strong>Quang Nguyen</strong></h1>
-        <nav>
-            <a>About Me</a>
-            <a>Education</a>
-            <a>Relevant Experience</a>
-            <a>Contact</a>
-        </nav>
+        <h1 class="h1">Quang Nguyen</h1>
+        <div class="nav">
+            <a class="homepage" href="#home">Home</a>
+            <a href="#abm">About Me</a>
+            <a href="#edu">Education</a>
+            <a href="#relExp">Relevant Experience</a>
+            <a href="#cont">Contact</a>
+            <input type="text" placeholder="Search..">
+        </div>
     </header>
     <main>
-        <p class = "paraphrase">Welcome to my portfolio Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-             sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>Welcome to my portfolio Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-             sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <section>
+            <h2>About Me</h2>
+            <p>About me
+                I came to the United States of America 6 years ago with the dream of persuading higher education. I got
+                my first year studying English as Second Language to improve my English skills. After that, I submitted
+                application to study at San Diego Miramar College where I spent almost 3 years with full of experiences
+                in studying lower division courses in computer science and engineering fields. The first time I study
+                coding is in CISC 190 which is taught by Professor Schulman, this class has given me the belief I could
+                do something in this major. I learn Java programming language step by step and I also help one of my
+                friend Gregory to study. After that I was really excited and surprised when I got accepted into UC San
+                Diego at the end of April. I know it's time for me to step out of my comfort zone and really diving into
+                challenges to grow. I had many memories and experiences during time studying at UC San Diego. I met many
+                new friends who inspires me to study harder in this field. I have done several projects at UC San Diego
+                which really helps me knowing how important that student with creativity can do to give solutions to
+                problems for our community. After all, I love all the time I study at community college or university,
+                it's extremely proud to be student at these schools. These memorable moments will be a part of my heart
+                and my mind forever.</p>
+        </section>
+        <img src="C:/Users/CSE134B/Persona.png" alt="Overview of My Personal Profile">
+        <img src="C:/Users/CSE134B/TritonIcon.jpg" alt="UCSD Icon">
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>UC San Diego</li>
+                <li>San Diego Miramar College</li>
+                <li>Le Thanh Phuong High School</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Relevant Experience</h2>
+            <ol>
+                <li>Social Compass</li>
+                <li>Automatic Faucet</li>
+                <li>Camera Lens</li>
+                <li>Bitcoin Hashing</li>
+                <li>DFA Machine</li>
+            </ol>
+            <a href="https://github.com/vqnguyenSD?tab=repositories">Review My Project</a>
+        </section>
+        <img src="C:/Users/CSE134B/ProjectImg.jpg" alt="Projects">
+        <picture>
+            <img src="C:/Users/CSE134B/handicon.png" alt="Contact Me On the right">
+        </picture>
+
+        <section>
+            <h2>Contact</h2>
+            <p>If you want me to contact you later, please fill out the information below</p>
+            <form action="find" method="get" class="get-info">
+                <div class="get-info">
+                    <label for="name">Enter your name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="get-info">
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="get-info">
+                    <input type="submit" value="Let's keep in touch!">
+                </div>
+            </form>
+        </section>
 
     </main>
     <footer>@CopyRight Quang Nguyen</footer>
