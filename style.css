@@ -83,13 +83,6 @@ picture {
     height: 250px;
 }
 
-footer {
-    grid-area: Footer;
-    display: grid;
-    place-items: start;
-    
-}
-
 main {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr;
@@ -100,6 +93,7 @@ footer{
     flex-direction: column;
     border: 1px solid black;
     background-color: var(--main-bg-color);
+    place-items: start;
 }
 
 @keyframes chcolor {
