@@ -96,6 +96,10 @@ main {
     grid-template-columns: 1.5fr 1.5fr;
     gap: 0px 0px;
 }
+footer{
+    display: flexbox;
+    flex-direction: column;
+}
 
 @keyframes chcolor {
     from {
