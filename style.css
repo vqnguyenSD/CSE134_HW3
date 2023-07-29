@@ -87,8 +87,7 @@ footer {
     grid-area: Footer;
     display: grid;
     place-items: start;
-    border: 1px solid black;
-    background-color: var(--main-bg-color);
+    
 }
 
 main {
@@ -99,6 +98,8 @@ main {
 footer{
     display: flexbox;
     flex-direction: column;
+    border: 1px solid black;
+    background-color: var(--main-bg-color);
 }
 
 @keyframes chcolor {
